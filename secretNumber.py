@@ -1,7 +1,7 @@
 import random
 
-NUM_DIGITS = 3 # (!) Try setting this to 1 or 10.
-MAX_GUESSES = 100 # (!) Try setting this to 1 or 100.
+NUM_DIGITS = 3 # How big the number will be to guess
+MAX_GUESSES = 50 # how many tries you have.
 
 def main():
     while True: # Main game loop.
