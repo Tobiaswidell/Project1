@@ -13,7 +13,7 @@ def main():
         numGuesses = 1
         while numGuesses <= MAX_GUESSES:
             guess = ''
-            # Keep looping until they enter a valid guess:
+            # Keep looping 
             while len(guess) != NUM_DIGITS or not guess.isdecimal():
                 print('Guess #{}: '.format(numGuesses))
                 guess = input('> ')
